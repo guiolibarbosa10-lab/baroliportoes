@@ -1,0 +1,52 @@
+[
+
+  {
+    "nome": "Carlos Henrique",
+    "nota": 5,
+    "texto": "Excelente atendimento do início ao fim. O portão ficou impecável, com acabamento de primeira e a instalação foi muito rápida. Recomendo sem dúvidas.",
+    "local": "Vila Maria, SP"
+  },
+  {
+    "nome": "Mariana Oliveira",
+    "nota": 5,
+    "texto": "Pesquisei bastante antes de contratar e foi a melhor escolha. O motor é silencioso, o portão ficou perfeito e toda a equipe foi muito atenciosa.",
+    "local": "Tatuapé, SP"
+  },
+  {
+    "nome": "Roberto Almeida",
+    "nota": 5,
+    "texto": "Serviço de alta qualidade, preço justo e entrega dentro do prazo combinado. O portão valorizou muito a fachada da minha casa.",
+    "local": "Guarulhos, SP"
+  },
+  {
+    "nome": "Fernanda Costa",
+    "nota": 5,
+    "texto": "Fiquei impressionada com a qualidade do material e o cuidado durante a instalação. O resultado ficou exatamente como eu imaginava.",
+    "local": "Santana, SP"
+  },
+  {
+    "nome": "Eduardo Martins",
+    "nota": 5,
+    "texto": "Atendimento rápido, equipe educada e um acabamento impecável. Já indiquei para vários amigos.",
+    "local": "Penha, SP"
+  },
+  {
+    "nome": "Juliana Souza",
+    "nota": 5,
+    "texto": "Além de bonito, o portão ficou muito resistente. A instalação foi organizada e tudo foi entregue no prazo.",
+    "local": "Mooca, SP"
+  },
+  {
+    "nome": "Ricardo Gomes",
+    "nota": 5,
+    "texto": "Profissionais muito competentes. Explicaram todo o processo e o resultado final superou minhas expectativas.",
+    "local": "Vila Guilherme, SP"
+  },
+  {
+    "nome": "Patrícia Fernandes",
+    "nota": 5,
+    "texto": "Excelente custo-benefício. O portão ficou moderno, seguro e com um acabamento de ótima qualidade.",
+    "local": "Bosque Maia, Guarulhos"
+  }
+]
+

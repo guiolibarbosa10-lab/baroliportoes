@@ -1,0 +1,41 @@
+{
+  "nome": "Baroli Portões",
+  "slogan": "Portões que valorizam seu patrimônio.",
+  "subtitulo": "Projetos exclusivos em ferro e alumínio para residências, condomínios e empresas.",
+  "telefonePrincipal": "11 2228-1631",
+  "whatsapp": "11 94782-3272",
+  "whatsappE164": "5511947823272",
+  "instagram": "@baroli.portoes",
+  "instagramUrl": "https://instagram.com/baroli.portoes",
+  "endereco": "Avenida Conceição, 2.400 - Vila Maria - São Paulo/SP",
+  "anosExperiencia": 17,
+  "sobre": "Somos uma serralheria especializada na fabricação de estruturas metálicas para projetos residenciais, prediais e comerciais. Com mais de 17 anos de experiência, atuamos com compromisso, qualidade e acabamento de alto padrão, entregando soluções sob medida para cada cliente. Nosso foco é transformar projetos em estruturas seguras, duráveis e com excelente estética.",
+  "servicos": [
+    "Portões sob medida",
+    "Grades de proteção",
+    "Corrimãos e guarda-corpos",
+    "Estruturas metálicas",
+    "Coberturas e telhados metálicos",
+    "Mezaninos",
+    "Reformas e manutenção"
+  ],
+  "servicosAutomacao": [
+    "Instalação de motores para portões",
+    "Automatização de cancelas para prédios e condomínios",
+    "Fechaduras elétricas",
+    "Travas eletromagnéticas",
+    "Controles de acesso para portões",
+    "Sinalizadores de garagem"
+  ],
+  "diferenciais": [
+    "Mais de 17 anos de experiência",
+    "Projetos sob medida",
+    "Acabamento premium",
+    "Materiais de primeira linha",
+    "Equipe especializada",
+    "Garantia",
+    "Instalação profissional",
+    "Atendimento rápido",
+    "Automação completa"
+  ]
+}

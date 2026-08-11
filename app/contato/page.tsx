@@ -17,7 +17,9 @@ export default function ContatoPage() {
     <div className="container-baroli py-16 lg:py-24">
       <Reveal>
         <p className="eyebrow mb-4">Fale com a gente</p>
-        <h1 className="font-display text-5xl sm:text-6xl mb-14">Contato</h1>
+        <h1 className="font-display text-5xl sm:text-6xl mb-14 text-baroli-gray-900">
+          Contato
+        </h1>
       </Reveal>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -43,7 +45,7 @@ export default function ContatoPage() {
               )}
               target="_blank"
               rel="noreferrer"
-              className="inline-block bg-baroli-blue px-8 py-4 text-sm uppercase tracking-widest2 hover:bg-baroli-blue-dark transition-colors"
+              className="inline-block bg-baroli-blue text-white rounded-md px-8 py-4 text-sm uppercase tracking-widest2 hover:bg-baroli-blue-dark transition-colors"
             >
               Falar no WhatsApp agora
             </a>
@@ -51,7 +53,7 @@ export default function ContatoPage() {
         </Reveal>
 
         <Reveal delay={0.15}>
-          <div className="aspect-[4/3] lg:aspect-auto lg:h-full min-h-[360px] border border-white/10">
+          <div className="aspect-[4/3] lg:aspect-auto lg:h-full min-h-[360px] border border-baroli-gray-200 rounded-lg overflow-hidden">
             <iframe
               src={mapaSrc}
               width="100%"
@@ -68,11 +70,19 @@ export default function ContatoPage() {
   );
 }
 
-function InfoItem({ label, children }: { label: string; children: React.ReactNode }) {
+function InfoItem({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
   return (
     <div>
-      <p className="text-xs uppercase tracking-widest2 text-white/40 mb-1">{label}</p>
-      <p className="text-xl text-white/90">{children}</p>
+      <p className="text-xs uppercase tracking-widest2 text-baroli-gray-500 mb-1">
+        {label}
+      </p>
+      <p className="text-xl text-baroli-gray-900">{children}</p>
     </div>
   );
 }

@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "projeto-01",
+    "titulo": "Portão Basculante — Reforma completa",
+    "categoria": "residencial",
+    "imagemAntes": "/images/projetos/basculante-01-antes.jpg",
+    "imagemDepois": "/images/projetos/basculante-01-depois.jpg"
+  },
+  {
+    "id": "projeto-02",
+    "titulo": "Portão Basculante — Instalação e acabamento",
+    "categoria": "residencial",
+    "imagemAntes": "/images/projetos/basculante-02-instalacao.jpg",
+    "imagemDepois": "/images/projetos/basculante-02-finalizado-b.jpg"
+  },
+  {
+    "id": "projeto-03",
+    "titulo": "Portão Basculante — Fachada cinza",
+    "categoria": "residencial",
+    "imagemDepois": "/images/projetos/basculante-03-finalizado.jpg"
+  },
+  {
+    "id": "projeto-04",
+    "titulo": "Portão Basculante — Desenho diagonal",
+    "categoria": "residencial",
+    "imagemDepois": "/images/projetos/basculante-04-finalizado.jpg"
+  },
+  {
+    "id": "projeto-05",
+    "titulo": "Instalação de fechadura digital",
+    "categoria": "residencial",
+    "imagemDepois": "/images/projetos/fechadura-digital-instalacao.jpg"
+  }
+]

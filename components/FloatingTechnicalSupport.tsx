@@ -23,7 +23,7 @@ export default function FloatingTechnicalSupport() {
       aria-label="Assistência Técnica via WhatsApp"
     >
       {/* Imagem — menor em mobile, tamanho normal a partir de sm */}
-      <div className="relative w-16 h-16 sm:w-24 sm:h-24 lg:w-32 lg:h-32">
+      <div className="relative w-22 h-22 sm:w-24 sm:h-24 lg:w-32 lg:h-32">
         <Image
           src="/images/assistencia-tecnica.png"
           alt="Assistência Técnica"

@@ -11,6 +11,7 @@ interface ButtonProps {
   variant?: ButtonVariant;
   size?: ButtonSize;
   disabled?: boolean;
+  loading?: boolean;
   className?: string;
   title?: string;
   target?: "_blank" | "_self" | "_parent" | "_top";
@@ -37,6 +38,7 @@ export default function Button({
   variant = "primary",
   size = "md",
   disabled = false,
+  loading = false,
   className = "",
   title,
   target,
@@ -44,8 +46,17 @@ export default function Button({
 }: ButtonProps) {
   const baseStyles =
     "inline-flex items-center justify-center rounded-md font-semibold transition-all duration-250 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-baroli-blue";
-  const disabledStyles = disabled ? "opacity-60 cursor-not-allowed" : "";
+  const disabledStyles = disabled || loading ? "opacity-60 cursor-not-allowed" : "";
   const combined = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${disabledStyles} ${className}`.trim();
+
+  const content = loading ? (
+    <>
+      <span className="inline-block w-4 h-4 mr-2 border-2 border-current border-t-transparent rounded-full animate-spin" />
+      {children}
+    </>
+  ) : (
+    children
+  );
 
   if (href) {
     return (
@@ -56,14 +67,14 @@ export default function Button({
         target={target}
         rel={rel || (target === "_blank" ? "noopener noreferrer" : undefined)}
       >
-        {children}
+        {content}
       </Link>
     );
   }
 
   return (
-    <button onClick={onClick} disabled={disabled} className={combined} title={title} type="button">
-      {children}
+    <button onClick={onClick} disabled={disabled || loading} className={combined} title={title} type="button">
+      {content}
     </button>
   );
 }

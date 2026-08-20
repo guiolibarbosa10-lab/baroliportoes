@@ -1,4 +1,4 @@
-import empresa from "@/data/empresa.json";
+import empresa from "../data/empresa.json";
 
 export function linkWhatsApp(mensagem: string): string {
   const texto = encodeURIComponent(mensagem);
@@ -8,7 +8,7 @@ export function linkWhatsApp(mensagem: string): string {
 export function mensagemProduto(codigo: string, linhaNome: string): string {
   return (
     `Olá! Tenho interesse no portão ${codigo} (${linhaNome}) ` +
-    `do catálogo da Baroli Portões. Gostaria de mais informações.`
+    `do catálogo da Baroli Portões. Gostaria de um orçamento.`
   );
 }
 

@@ -55,8 +55,8 @@ export default function Header() {
               key={item.href}
               href={item.href}
               className={`text-sm uppercase tracking-widest2 transition-colors ${
-                pathname === item.href 
-                  ? "text-baroli-blue font-semibold" 
+                pathname === item.href
+                  ? "text-baroli-blue font-semibold"
                   : "text-baroli-gray-600 hover:text-baroli-blue"
               }`}
             >
@@ -71,17 +71,9 @@ export default function Header() {
           onClick={() => setOpen((v) => !v)}
           className="lg:hidden flex flex-col gap-1.5 p-2"
         >
-          <span
-            className={`block h-[2px] w-6 bg-baroli-gray-700 transition-transform ${
-              open ? "translate-y-2 rotate-45" : ""
-            }`}
-          />
+          <span className={`block h-[2px] w-6 bg-baroli-gray-700 transition-transform ${open ? "translate-y-2 rotate-45" : ""}`} />
           <span className={`block h-[2px] w-6 bg-baroli-gray-700 transition-opacity ${open ? "opacity-0" : ""}`} />
-          <span
-            className={`block h-[2px] w-6 bg-baroli-gray-700 transition-transform ${
-              open ? "-translate-y-2 -rotate-45" : ""
-            }`}
-          />
+          <span className={`block h-[2px] w-6 bg-baroli-gray-700 transition-transform ${open ? "-translate-y-2 -rotate-45" : ""}`} />
         </button>
       </div>
 
@@ -93,8 +85,8 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 className={`py-3 text-sm uppercase tracking-widest2 border-b border-baroli-gray-100 ${
-                  pathname === item.href 
-                    ? "text-baroli-blue font-semibold" 
+                  pathname === item.href
+                    ? "text-baroli-blue font-semibold"
                     : "text-baroli-gray-600 hover:text-baroli-blue"
                 }`}
               >
